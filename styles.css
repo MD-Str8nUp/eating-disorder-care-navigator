@@ -297,6 +297,7 @@ h3 { font-size: 20px; }
 
 .button.danger { background: var(--coral); color: #fff; }
 .button.secondary { background: #fff; color: var(--teal-dark); }
+.button.coordinator-button { background: var(--blue); color: #fff; }
 
 .triage-panel {
   background: rgba(255, 255, 255, 0.96);
