@@ -1,0 +1,71 @@
+{
+  "fetchedAt": "2026-07-07T13:46:50.988Z",
+  "sourceUrl": "https://nedc.com.au/phn/rcrp",
+  "contacts": [
+    {
+      "region": "Adelaide",
+      "organisation": "Adelaide PHN / Neami National",
+      "name": "Dayna Jaeschke",
+      "role": "Project Lead",
+      "email": "Djaeschke@adelaidephn.com.au",
+      "phone": "",
+      "source": "NEDC Right Care Right Place"
+    },
+    {
+      "region": "North Western Melbourne",
+      "organisation": "North Western Melbourne PHN",
+      "name": "Cosette Boland",
+      "role": "Project Lead",
+      "email": "cosette.boland@nwmphn.org.au",
+      "phone": "",
+      "source": "NEDC Right Care Right Place"
+    },
+    {
+      "region": "Northern Territory - Top End",
+      "organisation": "Anglicare NT",
+      "name": "Kelly Mowat",
+      "role": "Eating Disorder Care Coordinator",
+      "email": "rightcarerightplace@anglicare-nt.org.au",
+      "phone": "0499 820 563",
+      "source": "NEDC Right Care Right Place + Jacqui-supplied phone/direct contact",
+      "alternateEmail": "kmowat@anglicarent.org.au",
+      "notes": "Jacqui supplied direct contact email kmowat@anglicarent.org.au."
+    },
+    {
+      "region": "Northern Territory - Central Australia",
+      "organisation": "Alice Springs Hospital",
+      "name": "Grace Dwyer",
+      "role": "Eating Disorder Care Coordinator",
+      "email": "grace.dwyer@nt.gov.au",
+      "phone": "",
+      "source": "NEDC Right Care Right Place"
+    },
+    {
+      "region": "Western Queensland",
+      "organisation": "Western Queensland PHN / Vital Health",
+      "name": "Abby Smith",
+      "role": "Project Lead",
+      "email": "AbbyS@vitalhealthqld.com.au",
+      "phone": "",
+      "source": "NEDC Right Care Right Place"
+    },
+    {
+      "region": "Flinders University",
+      "organisation": "Flinders University",
+      "name": "Dr Madelaine de Valle",
+      "role": "Chief Investigator",
+      "email": "madelaine.devalle@flinders.edu.au",
+      "phone": "",
+      "source": "NEDC Right Care Right Place"
+    },
+    {
+      "region": "National RCRP enquiries",
+      "organisation": "NEDC",
+      "name": "",
+      "role": "General RCRP enquiries",
+      "email": "rcrp@nedc.com.au",
+      "phone": "",
+      "source": "NEDC Right Care Right Place"
+    }
+  ]
+}

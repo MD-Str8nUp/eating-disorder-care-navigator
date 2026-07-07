@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eating Disorder Care Pathway Navigator</title>
+  <meta name="description" content="Independent Australian pathway navigation for eating disorder presentations where medical or hospital-level assessment may be needed.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap nav-wrap">
+      <a class="brand" href="#top" aria-label="Eating Disorder Care Pathway Navigator home">
+        <span class="brand-mark">ED</span>
+        <span><strong>Eating Disorder Care Pathway Navigator</strong><small>Independent pathway navigation aid</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#urgent">Urgent care</a>
+        <a href="#people-panel">I need help</a>
+        <a href="#professionals-panel">For clinicians</a>
+        <a href="#hospital">Hospital checklist</a>
+        <a href="#sources">Sources</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-media" role="img" aria-label="A quiet hospital corridor and care pathway"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Australia-wide care navigation</p>
+          <h1>When an eating disorder needs medical care, not just more referrals.</h1>
+          <p class="lead">A practical pathway if you or someone you love or care for may be medically unsafe, very underweight, losing weight quickly, or being sent home without a clear eating disorder care plan.</p>
+          <div class="risk-note">
+            <p>BMI around or under 16, and especially around or under 14, should be treated as a serious medical risk signal that needs urgent medical assessment.</p>
+            <p class="risk-note-detail">Private psychologists or eating disorder clinics may not accept a person straight away, or may not be the right first step, until medical assessment or stabilisation has been considered.</p>
+            <a class="button secondary bmi-button" href="https://www.healthdirect.gov.au/bmi-calculator" target="_blank" rel="noopener noreferrer">Calculate my BMI now</a>
+          </div>
+          <div class="entry-points" aria-label="Choose your pathway">
+            <a class="entry-card" href="#people-panel">
+              <span>I have an eating disorder or I am helping someone</span>
+              <strong>Find who can coordinate care</strong>
+            </a>
+            <a class="entry-card clinical" href="#professionals-panel">
+              <span>I am a GP, clinician or hospital worker</span>
+              <strong>Use the professional pathway</strong>
+            </a>
+          </div>
+          <div class="hero-actions">
+            <a class="button danger" href="#urgent">Start with urgent safety</a>
+            <a class="button secondary" href="#pathways">Find the pathway</a>
+          </div>
+        </div>
+        <aside class="triage-panel" aria-label="Important safety notice">
+          <h2>Immediate danger?</h2>
+          <p>Call <a href="tel:000">000</a> or go to the nearest Emergency Department if there are signs of medical collapse, severe weakness, fainting, chest pain, confusion, self-harm risk, dehydration, electrolyte concern, or inability to eat or drink safely.</p>
+          <p class="small">This site does not give medical advice. BMI alone does not decide risk. A person may need urgent medical assessment because of physical signs, psychiatric risk, rate of weight loss, blood results, heart observations, or inability to maintain nutrition.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="notice-band" id="urgent">
+      <div class="wrap notice-grid">
+        <div>
+          <p class="eyebrow">Do not wait for a psychology appointment</p>
+          <h2>Severe restriction can become a medical emergency.</h2>
+        </div>
+        <div class="notice-list">
+          <p><strong>Very low BMI is not just a counselling issue.</strong> If you or someone you love or care for has a BMI around 16 or below, is losing weight quickly, fainting, struggling to eat or drink, or feels medically unsafe, this may need urgent medical assessment at hospital.</p>
+          <p><a class="button secondary" href="https://www.healthdirect.gov.au/bmi-calculator" target="_blank" rel="noopener noreferrer">Calculate my BMI now</a></p>
+          <p>You can say: <strong>"I am worried this eating disorder is becoming medically unsafe. Please assess the eating disorder medical risk, not just the immediate injury or problem I came in with."</strong></p>
+          <p>If you are sent home, ask what to do tonight, when to come back, who is responsible for follow-up, and how to reach the eating disorder pathway or coordinator.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tabbed-care" aria-label="Care pathway views">
+      <div class="wrap">
+        <div class="care-tabs" role="tablist" aria-label="Care pathway audience">
+          <button class="tab-button" id="people-tab" type="button" role="tab" aria-selected="true" aria-controls="people-panel" data-tab-target="people-panel">
+            <span>Path 1</span>
+            <strong>For the person needing help</strong>
+            <small>Plain language, who to contact first, and what to ask for.</small>
+          </button>
+          <button class="tab-button" id="professionals-tab" type="button" role="tab" aria-selected="false" aria-controls="professionals-panel" data-tab-target="professionals-panel" tabindex="-1">
+            <span>Path 2</span>
+            <strong>For professionals</strong>
+            <small>Clinical safety checks, discharge planning and handover prompts.</small>
+          </button>
+        </div>
+
+        <div class="tab-panel" id="people-panel" role="tabpanel" aria-labelledby="people-tab">
+          <section class="tab-section" id="pathways">
+            <div class="section-head">
+              <p class="eyebrow">Eating disorder care pathways</p>
+              <h2>Find the right care contact.</h2>
+              <p>An eating disorder care coordinator helps join up care when it feels scattered. They can help work out who to contact, connect the GP, hospital, mental health team and eating disorder services, and make the next steps clearer so the person is not left with separate referrals and no plan.</p>
+            </div>
+
+            <div class="selector" aria-label="Regional pathway selector">
+              <label for="region">Where are they located?</label>
+              <select id="region">
+                <option value="default">Select a region</option>
+                <option value="sa">Adelaide PHN / South Australia</option>
+                <option value="vic">North Western Melbourne / Victoria</option>
+                <option value="nt">Northern Territory: Top End or Central Australia</option>
+                <option value="qld">Western Queensland</option>
+                <option value="other">Elsewhere in Australia</option>
+              </select>
+            </div>
+
+            <div class="pathway-card" id="pathwayResult" aria-live="polite">
+              <h3>Start with location, then match care intensity.</h3>
+              <p>Select a region to show the most relevant official pathway source and escalation prompts.</p>
+            </div>
+
+          </section>
+
+          <section class="tab-section">
+            <div class="tools-grid people-guidance">
+              <article class="tool soft">
+                <h2>Words you can use</h2>
+                <ul>
+                  <li>"I am worried my eating disorder is making my body unsafe."</li>
+                  <li>"Please check whether I am medically safe to go home."</li>
+                  <li>"I need a clear eating disorder plan, not just another referral."</li>
+                  <li>"Who is the person I contact if things get worse after I leave?"</li>
+                </ul>
+              </article>
+            </div>
+          </section>
+        </div>
+
+        <div class="tab-panel" id="professionals-panel" role="tabpanel" aria-labelledby="professionals-tab" hidden>
+          <section class="tab-section professional-steps" aria-labelledby="professional-steps-heading">
+            <div class="section-head">
+              <p class="eyebrow">Professional pathway</p>
+              <h2 id="professional-steps-heading">Four checks before the person leaves care.</h2>
+            </div>
+            <div class="cards four step-cards">
+              <article class="card">
+                <span class="step">1</span>
+                <h3>Medical safety assessment</h3>
+                <p>Assess eating disorder medical risk directly, including observations, weight trajectory, intake, purging, hydration, bloods and ECG where clinically indicated.</p>
+              </article>
+              <article class="card">
+                <span class="step">2</span>
+                <h3>Care coordination responsibility</h3>
+                <p>Identify the clinician, service or coordinator responsible for the next step, and document how the GP, hospital, mental health and specialist teams connect.</p>
+              </article>
+              <article class="card">
+                <span class="step">3</span>
+                <h3>Discharge planning</h3>
+                <p>Confirm the written plan covers nutrition, refeeding risk, follow-up timing, responsible contacts and clear return-to-ED instructions.</p>
+              </article>
+              <article class="card">
+                <span class="step">4</span>
+                <h3>Professional escalation</h3>
+                <p>Escalate through ED, medical registrar, specialist eating disorder service, local RCRP coordinator or senior clinical review if risk is unresolved.</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="tab-section alt" id="hospital">
+            <div class="split">
+              <div>
+                <p class="eyebrow">Clinical safety checklist</p>
+                <h2>Before discharge or handover.</h2>
+                <p>Use this professional view to check that eating disorder medical risk has been considered, a responsible clinician or service is identified, and the person has clear escalation instructions if they deteriorate.</p>
+              </div>
+              <div class="checklist">
+                <label><input type="checkbox"> Has medical instability from the eating disorder been assessed, not just the presenting injury?</label>
+                <label><input type="checkbox"> Were weight history, rate of weight loss, intake, purging, exercise, fainting and hydration discussed?</label>
+                <label><input type="checkbox"> Were observations, bloods and ECG considered or completed where clinically indicated?</label>
+                <label><input type="checkbox"> Is there a documented plan for nutrition, refeeding risk, supervision and follow-up?</label>
+                <label><input type="checkbox"> Who is responsible for follow-up in the next 24-72 hours?</label>
+                <label><input type="checkbox"> What symptoms mean return to ED immediately?</label>
+              </div>
+            </div>
+          </section>
+
+          <section class="tab-section">
+            <div class="tools-grid">
+              <article class="tool">
+                <h2>Clinician handover card</h2>
+                <p>Copy this into notes, referral forms or discharge planning conversations.</p>
+                <button class="copy-button" data-copy-target="handover">Copy handover text</button>
+                <pre id="handover">Eating disorder medical risk handover:
+- Presenting issue:
+- Eating disorder diagnosis/query diagnosis:
+- Current weight/BMI if known, plus recent weight loss:
+- Current intake/fluid intake:
+- Purging/laxatives/diuretics/exercise:
+- Fainting, chest pain, weakness, confusion, self-harm risk:
+- Observations/bloods/ECG completed:
+- Nutrition/refeeding risk considered:
+- Discharge plan and return-to-ED instructions:
+- Next responsible clinician and appointment date:</pre>
+              </article>
+            </div>
+          </section>
+
+          <section class="tab-section states">
+            <div class="section-head">
+              <p class="eyebrow">Regional starting points</p>
+              <h2>Official Right Care Right Place source links.</h2>
+            </div>
+            <div class="cards region-list">
+              <article class="region">
+                <h3>Adelaide PHN</h3>
+                <p>Service navigation through Adelaide PHN's Right Care Right Place project and Medicare Mental Health Phone Service pathway.</p>
+                <a href="https://adelaidephn.com.au/our-work/programs-directory/right-care-right-place-eating-disorder-care-in-my-community-project">Open Adelaide PHN pathway</a>
+              </article>
+              <article class="region">
+                <h3>North Western Melbourne</h3>
+                <p>Eating disorder care navigation and professional support through NWMPHN's Right Care Right Place work.</p>
+                <a href="https://nwmphn.org.au/for-primary-care/clinical-support/eating-disorders/">Open NWMPHN pathway</a>
+              </article>
+              <article class="region">
+                <h3>Northern Territory</h3>
+                <p>NEDC lists Top End and Central Australia contacts under the NT Right Care Right Place implementation. NT contact: Kelly Mowat, Eating Disorder Coordinator, Anglicare NT.</p>
+                <p><a href="mailto:kmowat@anglicarent.org.au">kmowat@anglicarent.org.au</a><br><a href="tel:+61499820563">0499 820 563</a></p>
+                <a href="https://nedc.com.au/phn/rcrp">Open NEDC RCRP contacts</a>
+              </article>
+              <article class="region">
+                <h3>Western Queensland</h3>
+                <p>NEDC lists Western Queensland PHN and Vital Health as part of the pilot implementation.</p>
+                <a href="https://nedc.com.au/phn/rcrp">Open NEDC RCRP contacts</a>
+              </article>
+            </div>
+          </section>
+
+          <section class="tab-section" id="coordinators">
+            <div class="section-head">
+              <p class="eyebrow">Current contacts</p>
+              <h2>Coordinator and project contact details.</h2>
+            </div>
+            <div class="contact-meta" id="contactMeta">Loading coordinator contacts...</div>
+            <div class="cards coordinator-list" id="coordinatorContacts" aria-live="polite"></div>
+          </section>
+
+          <section class="tab-section alt" id="sources">
+            <div class="section-head">
+              <p class="eyebrow">Source base</p>
+              <h2>Guided by public Australian eating disorder system resources.</h2>
+              <p>These links point to public official sources and local clinical services.</p>
+            </div>
+            <div class="source-list">
+              <a href="https://nedc.com.au/phn/rcrp">NEDC — Right Care Right Place</a>
+              <a href="https://nedc.com.au/">NEDC — Stepped System of Care, Service Locator and Get Help links</a>
+              <a href="https://insideoutinstitute.org.au/resource-library/guidelines-for-the-admission-of-children-and-young-people-with-an-eating-disorder">InsideOut Institute — admission guideline resource</a>
+              <a href="https://adelaidephn.com.au/our-work/programs-directory/right-care-right-place-eating-disorder-care-in-my-community-project">Adelaide PHN — RCRP project</a>
+              <a href="https://nwmphn.org.au/for-primary-care/clinical-support/eating-disorders/">North Western Melbourne PHN — eating disorder pathway</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <p><strong>Independent navigation aid:</strong><br>This is not the official Right Care Right Place website, is not affiliated with NEDC, PHNs or hospitals, and is not medical advice.</p>
+      <p>For immediate danger call <a href="tel:000">000</a>. For crisis support in Australia, contact Lifeline on <a href="tel:131114">13 11 14</a>.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
