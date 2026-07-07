@@ -255,6 +255,12 @@ h3 { font-size: 20px; }
   line-height: 1.12;
 }
 
+.entry-card.personal {
+  border-color: #ffd166;
+  background: rgba(183, 121, 31, 0.54);
+  box-shadow: 0 14px 34px rgba(80, 42, 8, 0.24);
+}
+
 .entry-card.clinical {
   border-color: #9df0e8;
   background: rgba(15, 109, 107, 0.42);
